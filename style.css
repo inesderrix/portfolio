@@ -144,12 +144,14 @@ h2 {
 
 .intro2{
     margin-bottom: 50px;
+     display: flex;
+    align-items: center;
+    text-align: center;
 }
 
 
 .intro2 p{
     max-width: 500px;
-    text-align: center;
 }
 
 
