@@ -149,6 +149,11 @@ h2 {
     text-align: center;
 }
 
+.intro2 div{
+    display: flex;
+    justify-content: center;
+}
+
 
 .intro2 p{
     max-width: 500px;
