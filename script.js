@@ -7,18 +7,18 @@ document.addEventListener("DOMContentLoaded", () => {
         let currentSection = "";
 
         sections.forEach(section => {
-            const sectionTop = section.offsetTop - 100; // Ajuste selon la hauteur de la navbar
+            const sectionTop = section.offsetTop - 100; 
             const sectionHeight = section.offsetHeight;
 
             if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
-                currentSection = section.getAttribute("id"); // Récupère l'ID de la section visible
+                currentSection = section.getAttribute("id"); 
             }
         });
 
         navLinks.forEach(link => {
-            link.classList.remove("active"); // Supprime la classe active de tous les liens
+            link.classList.remove("active"); 
             if (link.getAttribute("href") === `#${currentSection}`) {
-                link.classList.add("active"); // Ajoute la classe active au lien correspondant
+                link.classList.add("active"); 
             }
         });
     });
