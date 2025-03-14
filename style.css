@@ -465,6 +465,10 @@ p a:hover {
     color: #d05fa2 ;
 }
 
+footer{
+    scroll-snap-align: end;
+}
+
 
 @media (width>600px){
     .card {
